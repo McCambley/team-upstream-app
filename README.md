@@ -8,4 +8,4 @@
 - [Colin Maretsky](https://github.com/cjmaret)
 - [Jake McCambley](https://github.com/McCambley)
 
-## [Check out this App live!](https://mccambley.github.io/team-upstream/)
+## [Check out this App live!](https://mccambley.github.io/team-upstream-app/)
