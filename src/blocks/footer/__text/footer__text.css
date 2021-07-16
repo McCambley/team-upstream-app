@@ -1,0 +1,15 @@
+.footer__text {
+    font-size: 25px;
+    font-family: "Mukta", sans-serif;
+    color: white;
+    margin-left: 50px;
+    padding-top: 75px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .footer__text {
+      font-size: 20px;
+      text-align: center;
+      margin-left:0;
+    }
+  }

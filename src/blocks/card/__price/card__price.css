@@ -1,0 +1,14 @@
+.card__price {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71px;  
+    letter-spacing: -2.16px;
+    margin: 0;
+  }
+
+  .dollar-sign {
+    font-size: 40px;
+    margin: 0;
+    margin-right: 8px;
+    height: 49px;
+  }

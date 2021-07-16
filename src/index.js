@@ -43,7 +43,7 @@ buttonPremium.addEventListener('click', () => {
     buttonPremium.disabled = true;
 })
 
-const animalNamesArray = ["Colin", "Jake", "Denise", "Jellybean", "Lady", "Lucinda", "Doc Ock", "Ian", "Stubby", "Violence", "Iceman", "Chris Pratt", "Bridget", "James Cordon"]
+const animalNamesArray = ["Colin", "Jake", "Denise", "Jellybean", "Spicy", "Lucinda", "Doc Ock", "Ian", "Stubby", "Violence", "Iceman", "Chris Pratt", "Bridget Jones", "James Cordon"]
 
 
 
@@ -63,7 +63,6 @@ function resetPopup() {
 
 animalCard.forEach(animalCard => {
     animalCard.addEventListener('click', () => {
-        console.log('open');
         openPopup();
     })
 })

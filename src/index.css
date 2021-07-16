@@ -1,0 +1,16 @@
+@import url(./vendor/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&family=Otomanopee+One&display=swap');
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/animals-container/animals-container.css);
+@import url(./blocks/animal/animal.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/sponsor/sponsor.css);
+@import url(./blocks/pricing/pricing.css);
+@import url(./blocks/cards/cards.css);
+@import url(./blocks/card/card.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/footer/footer.css);
+
+
