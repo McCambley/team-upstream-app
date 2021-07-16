@@ -4,3 +4,10 @@
     align-items: center;
     margin: 24px auto 32px auto;
   }
+
+  
+  @media screen and (max-width: 475px) {
+    .card__price-group {
+      margin: 0 auto;
+    }
+  }

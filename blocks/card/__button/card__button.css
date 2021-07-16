@@ -21,3 +21,21 @@
   .card__button:hover {
     opacity: 0.8;
   }
+
+  @media screen and (max-width: 970px) {
+    .card__button {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .card__button {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .card__button {
+      font-size: 8px;
+    }
+  }

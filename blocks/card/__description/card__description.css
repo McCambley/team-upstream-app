@@ -8,5 +8,32 @@
     margin: 0 auto;
     padding: 12px 0 12px 0;
     font-size: 15px;
-    line-height: 28px;
+    line-height: 20px;
   }
+
+  @media screen and (max-width: 970px) {
+    .card__description {
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 710px) {
+    .card__description {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 490px) {
+    .card__description {
+      font-size: 10px;
+      padding: 0;
+
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .card__description {
+      font-size: 8px;
+    }
+  }
+
