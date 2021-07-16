@@ -1,18 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./images/favicon/site.webmanifest" />
-    <link rel="stylesheet" href="./index.css" />
-    <title>Team Upstream</title>
-  </head>
-  <body class="page">
-    <p class="placeholder">Here's our App!</p>
-    <script src="./index.js"></script>
-  </body>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Endangered - How to Save Endangered Animals</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page">
+    <div class="content">
+        <div class="header">
+            <h1 class="header__title">Endangered</h1>
+            <p class="header__subtitle">An informative guide on endangered animals and how to save them</p>
+        </div>
+        <section class="animals-container">
+            <div class="animal" style="background-image: url(./images/javan-rhinoceros.jpeg)">
+                <!-- <img class="animal-image" src="images/javan-rhinoceros.jpeg"> -->
+                <h2 class="animal-name">Rhinoceros</h2>
+                <button class="animal-button">Read more</button>
+            </div>
+            <div class="animal">
+                <img class="animal-image" src="images/tiger.jpeg">
+                <h2 class="animal-name">Tiger</h2>
+                <button class="animal-button">Read more</button>
+            </div>
+            <div class="animal">
+                <img class="animal-image" src="images/asian-elephant.jpeg">
+                <h2 class="animal-name">Asian Elephant</h2>
+                <button class="animal-button">Read more</button>
+            </div>
+            <div class="animal">
+                <img class="animal-image" src="images/orang-utan.jpeg">
+                <h2 class="animal-name">Orang Utan</h2>
+                <button class="animal-button">Read more</button>
+            </div>
+            <div class="animal">
+                <img class="animal-image" src="images/sea-turtle.jpeg">
+                <h2 class="animal-name">Leatherback Sea Turtle</h2>
+                <button class="animal-button">Read more</button>
+            </div>
+            <div class="animal">
+                <img class="animal-image" src="images/snow-leopard.jpeg">
+                <h2 class="animal-name">Snow Leopard</h2>
+                <button class="animal-button">Read more</button>
+            </div>
+        </section>
+        <footer>Team Upstream 2021</footer> 
+    </div>
+    <div class="popup">
+        <div class="popup__container">
+            <button class="popup__close-button"></button>
+            <div class="popup__content">
+                <img class="popup__image" src="images/javan-rhinoceros.jpeg">
+                <h2 class="popup__heading">About</h1>
+                <p class="popup__description">Javan rhinos are the most threatened of the five rhino species, with only around 60 individuals that live only in Ujung Kulon National Park in Java, Indonesia. Javan rhinos once lived throughout northeast India and Southeast Asia. Vietnam’s last Javan rhino was poached in 2010. This species is a dusky grey color and has a single horn of up to about 10 inches. Its skin has a number of loose folds, giving the appearance of armor plating. The Javan rhino is very similar in appearance to the closely-related greater one-horned rhinoceros, but has a much smaller head and less apparent skin folds.</p>
+                <h2 class="popup__heading">How to help?</h2>
+                <p class="popup__description">International Rhino Foundation works with the Rhino Foundation of Indonesia (Yayasan Badak Indonesia or YABI), and the staff of Ujung Kulon National Park to protect the world’s only population of Javan rhinos while also working to expand the species‘ habitat in Indonesia.</p>
+            </div>
+        </div>
+    </div> 
+</body>
+
 </html>
