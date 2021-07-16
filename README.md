@@ -1,4 +1,4 @@
-# 🐟 Cool App Name!
+# 🐟 Endangered Animals Interactive Guide!
 
 ### Team Upstream's App for Practicum by Yandex's July 2021 Code Bash
 
