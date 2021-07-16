@@ -4,3 +4,15 @@
     color: white;
     margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+    .header__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__title {
+        font-size: 23px;
+    }
+}

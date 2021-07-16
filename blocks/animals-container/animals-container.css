@@ -6,3 +6,15 @@
     width: 95%;
     margin: auto;
 }
+
+@media screen and (max-width: 900px) {
+    .animals-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .animals-container {
+        grid-template-columns: 1fr;
+    }
+}

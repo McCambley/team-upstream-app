@@ -1,5 +1,5 @@
 .popup__container {
-    width: 50%;
+    width: 70%;
     height: 80vh;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -7,4 +7,11 @@
     padding: 30px 10px;
     border-radius: 5px;
     position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__container {
+        width: 85%;
+        height: 90vh;
+    }
 }
