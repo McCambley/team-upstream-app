@@ -1,0 +1,25 @@
+@import url(./__button/animal__button.css);
+@import url(./__name/animal__name.css);
+@import url(./__text-group/animal__text-group.css);
+
+.animal {
+    text-align: center;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(197 195 195, 0.7);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 395px;
+    max-height: 395px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+}
+
+.animal:hover {
+    box-shadow: 5px 5px 20px rgb(197 195 195);
+    transform: translate3D(0, -1px, 0) scale(1.03);
+}

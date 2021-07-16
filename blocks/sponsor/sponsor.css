@@ -1,0 +1,13 @@
+@import url(./__title/sponsor__title.css);
+@import url(./__message-text/sponsor__message-text.css);
+@import url(./__message/sponsor__message.css);
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 75px;
+    padding-bottom: 150px;
+    padding-bottom: 100px;
+  }

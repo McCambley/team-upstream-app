@@ -1,0 +1,9 @@
+@import url(./__text/pricing__text.css);
+@import url(./__slider/pricing__slider.css);
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 30px auto;
+  }

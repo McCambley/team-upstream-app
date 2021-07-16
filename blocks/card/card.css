@@ -1,0 +1,15 @@
+@import url(./__button/card__button.css);
+@import url(./__description-group/card__description-group.css);
+@import url(./__description/card__description.css);
+@import url(./__price-group/card__price-group.css);
+@import url(./__price/card__price.css);
+@import url(./__title/card__title.css);
+@import url(./_type/_premium/card_type_premium.css);
+@import url(./_type/_basic/card_type_basic.css);
+
+
+.card {
+    text-align: center;
+    border-radius: 5px;
+    width: 45%;
+  }

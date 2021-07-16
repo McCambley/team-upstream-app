@@ -1,0 +1,12 @@
+@import url(./_no-border/card__description_no-border.css);
+@import url(./_premium/card__description_premium.css);
+
+.card__description {
+    width: 288px;
+    border-top: 1px solid rgba(110, 114, 142, 0.25);
+    border-bottom: 1px solid rgba(110, 114, 142, 0.25);
+    margin: 0 auto;
+    padding: 12px 0 12px 0;
+    font-size: 15px;
+    line-height: 28px;
+  }
