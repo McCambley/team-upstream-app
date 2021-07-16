@@ -2,3 +2,29 @@
     font-size: 40px;
     margin: 31px auto 24px auto;   
   }
+
+  @media screen and (max-width: 840px) {
+    .card__title {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .card__title {
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .card__title {
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .card__title {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+  }

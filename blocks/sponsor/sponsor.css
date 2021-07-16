@@ -3,6 +3,7 @@
 @import url(./__message/sponsor__message.css);
 
 .sponsor {
+    font-family: "Otomanopee One", sans-serif;
     display: flex;
     flex-direction: column;
     width: 100%;
