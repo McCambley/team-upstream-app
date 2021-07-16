@@ -30,7 +30,7 @@ togglePrices();
 buttonBasic.addEventListener('click', () => {
     let randomName = animalNamesArray[Math.floor(Math.random() * animalNamesArray.length)];
 
-    sponsorMessage.textContent = `Congratulations! You've become a monthly sponsor for this animal! Your animal's name is ${randomName}!`
+    sponsorMessage.textContent = `Congratulations! You've become a sponsor for this animal! Your animal's name is ${randomName}!`
     buttonBasic.disabled = true;
     buttonPremium.disabled = true;
 })
@@ -38,7 +38,7 @@ buttonBasic.addEventListener('click', () => {
 buttonPremium.addEventListener('click', () => {
     let randomName = animalNamesArray[Math.floor(Math.random() * animalNamesArray.length)];
 
-    sponsorMessage.textContent = `Congratulations! You've become an annual sponsor for this animal! Your animal's name is ${randomName}!`
+    sponsorMessage.textContent = `Congratulations! You've become a premium sponsor for this animal! Your animal's name is ${randomName}!`
     buttonBasic.disabled = true;
     buttonPremium.disabled = true;
 })
