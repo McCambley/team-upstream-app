@@ -28,7 +28,6 @@
 
 .content {
     max-width: 1280px;
-    border: red;
     margin: 0 auto;
 }
 
@@ -131,19 +130,21 @@
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
-    visibility: hidden;
-    opacity: 0;
+    /* visibility: hidden;
+    opacity: 0; */
     transition: visibility 0.4s, opacity 0.4s linear;
   }
 
   .popup__container {
       display: flex;
+      flex-direction: column;
       width: 60%;
       height: 90vh;
       background-color: rgb(237, 235, 211);
       border-radius: 20px;
       padding: 30px 100px;
       overflow-y: scroll;
+      position: relative;
   }
 
   .popup__content {
@@ -179,7 +180,220 @@
       background-size: contain;
       border: none;
       background-color: transparent;
+      position: absolute;
   }
+
+  .sponsor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 75px;
+    padding-bottom: 150px;
+  }
+
+  .sponsor__title {
+    text-align: center;
+    font-size: 55px;
+    margin: 0;
+  }
+  .pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 30px auto;
+  }
+  
+  .pricing__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6E728E;
+    opacity: 50%;
+  }
+  
+  /* The switch - the box around the slider */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(251, 211, 125);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(251, 211, 125);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(251, 211, 125);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .card {
+    text-align: center;
+    border-radius: 5px;
+    width: 45%;
+  }
+
+  .card_type_premium {
+    color: white;
+    background: linear-gradient(rgb(251, 211, 125), rgb(252, 228, 175));
+  }
+    
+  .card_type_basic {
+      color: #4A4D60;
+      background-color: white;
+  }
+    
+  .card__title {
+    font-size: 40px;
+    margin: 31px auto 24px auto;   
+  }
+
+    
+    .card__price-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 24px auto 32px auto;
+    }
+    
+    .card__price {
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 71px;  
+      letter-spacing: -2.16px;
+      margin: 0;
+    }
+    
+    .dollar-sign {
+      font-size: 40px;
+      margin: 0;
+      margin-right: 8px;
+      height: 49px;
+    }
+    
+    .card__description-group {
+      color: #6E728E;
+      margin: 32px 0;
+    }
+    
+    .card__description-group_premium {
+      color: white;
+    }
+    
+    .card__description {
+      width: 288px;
+      border-top: 1px solid rgba(110, 114, 142, 0.25);
+      border-bottom: 1px solid rgba(110, 114, 142, 0.25);
+      margin: 0 auto;
+      padding: 12px 0 12px 0;
+      font-size: 15px;
+      line-height: 28px;
+    }
+    
+    .card__description_premium {
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .card__description_no-border {
+      border: none;
+    }
+    
+    .card__button {
+      font-family: "Montserrat", sans-serif;
+      width: 288px;
+      height: 44px;
+      border: none;
+      border-radius: 5px;
+      transition: opacity 0.4s linear;
+      cursor: pointer;
+      margin: 0 auto 10px auto;
+      background-color: black;
+      color: white;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15.85px;
+      letter-spacing: 1.39px; 
+      text-transform: uppercase;
+    }
+    
+    .card__button_premium {
+      background-color: white;
+      color: rgb(251, 211, 125);
+    }
+    
+    
+    .card__button:hover {
+      opacity: 0.8;
+    }
+
+
+    .sponsor__message {
+      margin: 50px auto 0 auto;
+    }
+
+    .sponsor__message-text {
+      font-size: 40px;
+      text-align: center;
+      font-family: "Otomanopee One", sans-serif;
+    }
+
+
 
   .footer {
     margin-top: -50px;
