@@ -1,0 +1,10 @@
+.popup__container {
+    width: 50%;
+    height: 80vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background-color: rgb(237, 235, 211);
+    padding: 30px 10px;
+    border-radius: 5px;
+    position: relative;
+}
